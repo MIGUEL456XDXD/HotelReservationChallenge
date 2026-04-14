@@ -56,6 +56,7 @@ class Reservation:
                 f"Dates: {self.check_in} - {self.check_out}")
 
 
+
 class Room:
     def __init__(self, number: int, type_: str, price_per_night: float):
         self.number = number
